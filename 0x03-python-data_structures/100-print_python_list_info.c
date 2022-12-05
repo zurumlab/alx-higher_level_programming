@@ -23,3 +23,4 @@ void print_python_list_info(PyObject *p)
 	{
 		printf("Element %ld: %s\n", count, Py_TYPE(pObj->ob_item[count])->tp_name);
 	}
+}
